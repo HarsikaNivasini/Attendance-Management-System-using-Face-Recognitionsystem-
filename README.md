@@ -14,17 +14,15 @@ Libraries: OpenCV, Tkinter, NumPy, Pandas, Pillow
 Database: MySQL
 Getting Started
 Step 
-1: Clone the Repository
-git clone https://github.com/Programmer-Atharva/facialAttendanceMLSystem.git
-cd facialAttendanceMLSystem
-2. Install Required Packages
+
+1. Install Required Packages
 Ensure Python is installed on your system (I did my project in conda environment), then install the necessary dependencies:
 pip install -r requirements.txt
-3. Set Up MySQL Database
+2. Set Up MySQL Database
 Create a MySQL database to store attendance records.
 Update the database connection details in the code as needed.
 You can create another user instead of root user
-4. Download Haarcascade
+3. Download Haarcascade
 Download the Haarcascade XML file for face detection from the OpenCV GitHub repository and place it in the project directory.
 
 Usage
